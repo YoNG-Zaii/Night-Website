@@ -1,0 +1,19 @@
+.wheel-1{
+    fill:#262324;
+}
+
+.wheel-1,.wheel-2{
+    stroke:#231f20;
+    stroke-miterlimit: 10;
+    stroke-width: 1px;
+}
+
+.wheel-2{
+    fill:#2d2d2d;
+}
+    
+.wheel-3{
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 0.75px;
+}

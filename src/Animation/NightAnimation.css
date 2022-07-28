@@ -1,0 +1,161 @@
+.nightSky, .nightGround{
+    position: relative;
+}
+
+.nightGround{
+    height: 200px;
+}
+
+.svgCar{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    height: 100px;
+    z-index: 11;
+}
+
+.car, .lightedCar{
+    width: 250px;
+    height: 100px;
+}
+
+#frontWheel{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 33.5px;
+    top: 65px;
+}
+
+#backWheel{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 147px;
+    top: 65px;
+}
+
+.star{
+    position: absolute;
+    color: #ffffed;
+    font-size: 1.2em;
+    animation: rotation 4s linear infinite;
+}
+
+#star1{
+    top: 30%;
+    left: 10%;
+}
+
+
+#star2{
+    left: 50%;
+}
+
+#star3{
+    top: 50%;
+    left: 80%;
+}
+
+.ground{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border-top: 2px solid #2b1d0e;
+    height: 0;
+}
+
+.tree{
+    position: absolute;
+    bottom: 0;
+    color: #2b1d0e;
+}
+
+#tree1{
+    left: 0%;
+    font-size: 10em;
+}
+
+.treeSVG{
+    position: absolute;
+    bottom: 0;
+    width: 180px;
+    height: 250px;
+    fill: #003c00;
+    right: 8%;
+}
+
+.Bush{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 150px;
+    height: 80px;
+    fill: #003100;
+}
+
+.house{
+    position: absolute;
+    top: 0.6em;
+    right: 35%;
+    font-size: 8em;
+    color: #C4C4C4;
+}
+
+.moonAnimation{
+    visibility: hidden;
+    font-size: 4em;
+    padding-bottom: 1em;
+    color: #F6F1D5;
+}
+
+.moonFollowing{
+    visibility: visible;
+    animation: moonFollowing 5s linear infinite;
+}
+
+.carMoving{
+    visibility: visible;
+    animation: carMoving 5s linear infinite;
+}
+
+.wheelMoving{
+    animation: rotation 5s linear infinite;
+}
+
+@keyframes moonFollowing{
+    from{
+        transform: translate(-30vw);
+    }
+    to{
+        transform: translate(100vw);
+    }
+}
+
+@keyframes carMoving{
+    from{
+        transform: translate(-30vw);
+    }
+    to{
+        transform: translate(100vw);
+    }
+}
+
+@keyframes carUpDown{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-3px);
+    }
+}
+
+@keyframes rotation{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

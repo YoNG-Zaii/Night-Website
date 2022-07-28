@@ -1,0 +1,33 @@
+#BigSquare{
+    width: 15vw;
+    height: 15vw;
+}
+
+#SmallSquare{
+    width: 8vw;
+    height: 8vw;
+}
+
+@media screen and (min-width: 700px){
+    #BigSquare{
+        width: 110px;
+        height: 110px;
+    }
+
+    #SmallSquare{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #BigSquare{
+        width: 15vw;
+        height: 15vw;
+    }
+
+    #SmallSquare{
+        width: 8vw;
+        height: 8vw;
+    }
+}

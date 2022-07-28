@@ -1,0 +1,29 @@
+.photoGalTitle, .photoGalDesc{
+    color: #E8E8E8;
+    text-align: center;
+    position: relative;
+}
+
+.photoGalTitle{
+    font-size: 4em;
+    margin-top: 0;
+    padding-top: 1rem;
+    margin-bottom: -0.5rem;
+}
+
+.photoGalDesc{
+    font-size: 2em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 992px){
+    .photoGalTitle{
+        font-size: 2.2em;
+    }
+    
+    .photoGalDesc{
+        font-size: 1.5em;
+    }
+}

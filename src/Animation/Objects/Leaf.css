@@ -1,0 +1,17 @@
+.leaf-1{
+    fill:#003c00;
+}
+
+.leaf-1,.leaf-2,.leaf-3{
+    stroke:#2b1d0e;
+    stroke-miterlimit:10;
+    stroke-width: 6px;
+}
+
+.leaf-2{
+    fill:#fff;
+}
+
+.leaf-3{
+    fill:#001e00;
+}

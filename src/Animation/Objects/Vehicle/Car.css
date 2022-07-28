@@ -1,0 +1,47 @@
+.Car-1{
+    fill: #373737; /* Body */
+}
+
+.Car-1,.Car-2,.Car-3{
+    stroke: #231f20;
+    stroke-miterlimit: 10;
+}
+
+.Car-1,.Car-2,.Car-3{
+    stroke-width: 1px;
+}
+
+.Car-2{
+    fill: #2d2d2d; /* Window */
+}
+
+.Car-3{
+    fill: #2d2d2d; /* Lights */
+}
+
+
+.lCar-1{
+    fill: #373737; /* Body */
+}
+
+.lCar-1,.lCar-2,.lCar-3{
+    stroke: #231f20;
+    stroke-miterlimit: 10;
+    stroke-width: 1px;
+}
+
+.lCar-2{
+    fill: #2d2d2d; /* Window */
+}
+
+.lCar-3{
+    fill: #f3f2af; /* Lights */
+}
+
+.lCar-4{
+    fill:url(#front-light-gradient);
+}
+
+.lCar-5{
+    fill:url(#back-light-gradient);
+}

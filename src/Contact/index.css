@@ -1,0 +1,95 @@
+.Contact{
+    text-align: center;
+    background: #431c53;
+    height: 450px;
+    color: white;
+    padding-inline: 20px;
+}
+
+@media screen and (max-width: 1216px){
+    .Contact{
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 816px){
+    .Contact{
+        height: 710px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .Contact{
+        height: 800px;
+    }
+}
+
+.Contact h2{
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.2em 0.5em 0.5em 0;
+}
+
+.Contact h3{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.inputWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sIcon{
+    font-size: 3em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    cursor: pointer;
+    color: #fff;
+}
+
+.fName, .lName, .email{
+    width: 400px;
+    margin-bottom: 1.5em;
+}
+
+#fname, #lname, #email{
+    width: 300px;
+    height: 30px;
+    font-size: 1.5em;
+    background: #262626;
+    color: white;
+}
+
+::placeholder{
+    color: gray;
+    opacity: 1;
+}
+
+.submit{
+    width: 120px;
+    height: 40px;
+    font-size: 1.5em;
+    background: #262626;
+    color: white;
+    margin-top: 1em;
+    border: 2px solid lightgray;
+    transition: 0.3s linear;
+}
+
+.submit:hover{
+    box-shadow: 2px 2px 5px #fff;
+    transform: translateY(-3px);
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.smLink{
+    text-decoration: none;
+}

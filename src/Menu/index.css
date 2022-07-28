@@ -1,0 +1,115 @@
+.menuBg{
+    min-height: 700px;
+    background: linear-gradient(#2b1055, #7597de);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 10;
+}
+
+header .logo{
+    margin-left: 8%;
+}
+
+.moonLogo{
+    color: #fff;
+    font-size: 4em;
+    transition: 0.5s linear;
+}
+
+.moonLogo:hover{
+    animation: moonRotate 2s linear infinite;
+}
+
+@keyframes moonRotate{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+header ul{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+header ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 10px 8px 10px;
+}
+
+header ul li a:hover{
+    background: #fff;
+    color: #2b1055;
+}
+
+.barIcon{
+    visibility: hidden;
+    margin-right: 5%;
+    font-size: 1.8em;
+    color: white;
+}
+
+.resize-animation-stopper{
+    animation: none !important;
+    transition: none !important;
+}
+
+@media screen and (max-width: 750px){
+    .openedNavbar{
+        transform: unset;
+    }
+
+    header ul{
+        top: 2em;
+        width: 100%;
+        height: 10em;
+        padding-inline: 0;
+        flex-direction: column;
+        background: #000026;
+        font-size: 2em;
+        transition: 1s ease-in-out;
+        transform: translate(150vw);
+    }
+    
+    header ul li{
+        text-align: center;
+        width: 100%;
+        margin-inline: 0;
+    }
+
+    header ul li a{
+        display: block;
+        border-radius: 0;
+    }
+
+    .barIcon{
+        visibility: visible;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,77 @@
+.bigStone{
+    position: absolute;
+    visibility: hidden;
+    bottom: 10em;
+    width: 30px;
+    height: 30px;
+    left: 25em;
+}
+
+.leaf{
+    position: absolute;
+    visibility: hidden;
+    width: 50px;
+    height: 30px;
+    bottom: 4em;
+    left: 8em;
+    z-index: 10;
+}
+
+.fallingLeaf{
+    visibility: visible;
+    animation: leafSwayDown 5s ease-in-out;
+}
+
+.fellLeaf{
+    visibility: visible;
+    bottom: 0;
+}
+
+.fellBigStone{
+    visibility: visible;
+    bottom: 0;
+    transform: translate(10px) rotate(20deg)
+}
+
+.fallingBigStone{
+    visibility: visible;
+    animation: rollingDown 1s ease-in;
+}
+
+@keyframes rollingDown{
+    from{
+        bottom: 10em;
+        transform: rotate(-360deg);
+    }
+    50%{
+        bottom: 0;
+        transform: rotate(0);
+    }
+    to{
+        bottom: 0;
+        transform: translate(10px) rotate(20deg);
+    }
+}
+
+@keyframes leafSwayDown{
+    from{
+        bottom: 4em;
+        transform: rotate(0);
+    }
+    25%{
+        bottom: 3em;
+        transform: rotate(-40deg);
+    }
+    50%{
+        bottom: 2em;
+        transform: rotate(0);
+    }
+    70%{
+        bottom: 1em;
+        transform: rotate(20deg);
+    }
+    to{
+        bottom: 0;
+        transform: rotate(0);
+    }
+}

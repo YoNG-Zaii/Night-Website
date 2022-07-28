@@ -1,0 +1,17 @@
+.flow1{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, #1c0522, #321d38);
+}
+
+.flow2{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, #321d38, #431c53);
+}
+
+.flow3{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, #431c53, #483d8b);
+}
