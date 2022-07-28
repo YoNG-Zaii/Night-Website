@@ -18,10 +18,10 @@
 }
 
 .moonLogo2:hover{
-    animation: moonRotate 2s linear infinite;
+    animation: moonRotate2 2s linear infinite;
 }
 
-@keyframes moonRotate{
+@keyframes moonRotate2{
     from{
         transform: translate(-50%) rotate(0);
     }

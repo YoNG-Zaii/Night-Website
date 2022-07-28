@@ -33,10 +33,10 @@ const Menu = () => {
         let mountains_behind = document.getElementById('mountains_behind');
         let text = document.getElementById('text');
         let value = window.pageYOffset;
-        stars.style.left = value * 0.2 + 'px';
-        moon.style.left = value * 0.2 + 'px';
-        mountains_behind.style.top = value * 0.4 + 'px';
-        text.style.transform = 'translateX(' + (-1*50 - value * 0.1) + '%)';
+        stars.style.transform = 'translateX(' + value * 0.02 + '%)';
+        moon.style.transform = 'translateX(' + value * 0.02 + '%)';
+        mountains_behind.style.transform = 'translateY(' + value * 0.05 + '%)'
+        text.style.transform = 'translateX(' + (-50 - value * 0.1) + '%)';
     }
 
     const handleResize = () => {
