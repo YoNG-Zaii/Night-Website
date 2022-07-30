@@ -75,6 +75,29 @@ header ul li a:hover{
     color: white;
 }
 
+.nextBtn{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    border-radius: 1em;
+    border: 2px solid black;
+    background: midnightblue;
+    color: #fff;
+    font-size: 2em;
+    width: 4em;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    z-index: 9;
+    transition: 0.5s;
+}
+
+.nextBtn:hover{
+    transform: translate(-50%, -55%);
+    box-shadow: 0 0 0 2px #fff, 
+                0 0 0 4px lightyellow;
+}
+
 .resize-animation-stopper{
     animation: none !important;
     transition: none !important;

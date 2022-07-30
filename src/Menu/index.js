@@ -66,7 +66,7 @@ const Menu = () => {
                 <li><a href='#Explore'>Explore</a></li>
                 <li><a href='#Gallery'>Gallery</a></li>
                 <li><a href='#Contact'>Contact</a></li>
-                <li><Link to='/Scroll'>More</Link></li>
+                <li><a href='#Animation'>View</a></li>
             </ul>
         </header>
         <section className='images'>
@@ -75,6 +75,7 @@ const Menu = () => {
             <img className='moonImg' src='moonView/mountains_behind.png' id='mountains_behind' alt='mountains_behind' />
             <img className='moonImg' src='moonView/mountains_front.png' id='mountains_front' alt='mountains_front' />
             <h2 id = 'text'>Moon Light</h2>
+            <Link to='/Scroll'><button className='nextBtn'>More</button></Link>
         </section>
         </div>
     )

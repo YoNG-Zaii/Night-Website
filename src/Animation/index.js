@@ -89,7 +89,7 @@ const Animation = () => {
     }
 
     return (
-        <div className='Animation'>
+        <div className='Animation' id='Animation'>
             <h2 className='title'>Discover the Animations at Night!</h2>
             <div className='textWrapper'>
                 <div className='fWrapper'>
