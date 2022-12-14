@@ -2,7 +2,7 @@
   "name": "night2022",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://YoNG-Zaii.github.io/Night-Website",
+  "homepage": "https://yong-zaii.github.io/Night-Website/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
