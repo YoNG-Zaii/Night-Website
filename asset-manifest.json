@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Night-Website/static/css/main.96060991.css",
+    "main.js": "/Night-Website/static/js/main.1d4e3cba.js",
+    "static/js/787.662c70c8.chunk.js": "/Night-Website/static/js/787.662c70c8.chunk.js",
+    "index.html": "/Night-Website/index.html",
+    "main.96060991.css.map": "/Night-Website/static/css/main.96060991.css.map",
+    "main.1d4e3cba.js.map": "/Night-Website/static/js/main.1d4e3cba.js.map",
+    "787.662c70c8.chunk.js.map": "/Night-Website/static/js/787.662c70c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96060991.css",
+    "static/js/main.1d4e3cba.js"
+  ]
+}
